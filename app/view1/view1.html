@@ -1,0 +1,11 @@
+
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="view1.js"></script>
+<form action="view1.html" method="GET">
+Please Enter The Day You Were Born: <input type="text" ng-model="person.day" name="day">
+Gender: <input type="text" ng-model="person.gender" name="gender">
+</form>
+
+<p>{{person|changeName}}</p>
+
+<p>This is the partial for view 1.</p>
